@@ -16,6 +16,13 @@ const App = () => {
           { `Grid size: ${params.getRowsAmount()}x${params.getColumnsAmount()}` }
         </Text>
         <Field></Field>
+        <Field opened></Field>
+        <Field opened nearMines={2}></Field>
+        <Field opened nearMines={3}></Field>
+        <Field opened nearMines={4}></Field>
+        <Field opened nearMines={5}></Field>
+        <Field opened nearMines={6}></Field>
+        <Field opened nearMines={7}></Field>
       </SafeAreaView>
     </>
   );
