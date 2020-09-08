@@ -1,5 +1,4 @@
-const { Dimensions } = require("react-native")
-//import { Dimensions } from 'react-native'
+import { Dimensions } from 'react-native'
 
 const params = {
     blockSize: 30,

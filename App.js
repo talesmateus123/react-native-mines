@@ -5,6 +5,7 @@ import {
   Text,
 } from 'react-native';
 import params from './src/params';
+import Field from './src/components/Field'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Text style={styles.instructions}>
           { `Grid size: ${params.getRowsAmount()}x${params.getColumnsAmount()}` }
         </Text>
+        <Field></Field>
       </SafeAreaView>
     </>
   );
