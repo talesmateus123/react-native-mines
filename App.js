@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 import params from './src/params';
 import Field from './src/components/Field'
+import Mine from './src/components/Mine';
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         <Field opened nearMines={5}></Field>
         <Field opened nearMines={6}></Field>
         <Field opened nearMines={7}></Field>
+        <Field opened flagged></Field>
+        <Field flagged></Field>
+        <Field mined></Field>
       </SafeAreaView>
     </>
   );
